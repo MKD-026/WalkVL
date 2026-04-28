@@ -1,0 +1,12 @@
+Training Log Files
+
+internvl_mm_1b.4497237.log: check log
+internvl_mm_1b.4516005.log: completed
+  Last val_loss: 0.0212
+internvl_mm_4b.4497238.log: check log
+internvl_mm_4b.4516029.log: check log
+internvl_rgb_1b.4497235.log: check log
+internvl_rgb_1b.4516003.log: completed
+  Last val_loss: 0.0187
+internvl_rgb_4b.4497236.log: check log
+internvl_rgb_4b.4516028.log: check log

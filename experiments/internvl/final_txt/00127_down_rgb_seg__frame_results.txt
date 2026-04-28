@@ -1,0 +1,29 @@
+Frame Results: 00127 Down Rgb Seg
+
+Frames: 15
+Errors: 0
+Structured JSON responses: 15 (100.0%)
+Average latency: 4.77s/frame
+Safe directions: {'forward': 11, 'right': 4}
+
+Sample Responses
+
+000000.png: Low pedestrian risk, safe to proceed forward.
+
+000001.png: Low pedestrian risk, safe to proceed forward.
+
+000002.png: Low pedestrian risk, safe to proceed forward.
+
+000003.png: Low pedestrian risk, safe to proceed forward.
+
+000004.png: Low pedestrian risk, safe to proceed.
+
+000005.png: Low pedestrian risk, safe to proceed forward.
+
+000006.png: Low pedestrian risk, safe to proceed forward.
+
+000007.png: Low pedestrian risk, safe to proceed forward.
+
+000008.png: Pedestrian crossing detected, stop now for safety.
+
+000009.png: Low pedestrian risk, safe to proceed forward.

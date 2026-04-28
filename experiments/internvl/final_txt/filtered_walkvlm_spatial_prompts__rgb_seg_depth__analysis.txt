@@ -1,0 +1,8 @@
+Analysis: Rgb Seg Depth
+
+Frames evaluated: 49
+Structured JSON responses: 39 (79.6%)
+Mean uncertainty: 0.900
+Recommended Action Counts: {'slow_down': 39}
+Safe Direction Counts: {'left': 39}
+Stop-now frames: 0

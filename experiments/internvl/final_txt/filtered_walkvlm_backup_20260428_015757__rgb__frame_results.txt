@@ -1,0 +1,10 @@
+Frame Results: Rgb
+
+Frames: 1
+Errors: 0
+Structured JSON responses: 0 (0.0%)
+Average latency: 6.19s/frame
+
+Sample Responses
+
+frame_000161.jpg: ```json { "scene_summary": "A pedestrian is crossing a street in an urban area, with trees lining the sidewalk and buildings on the right side of the street.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk": "low"}, {"bbox": [200, 100, 250, 150], "risk": "low"}, {"bbox": [300, 100, 350, 150], "risk": "low"}, {"bbox": [400, 100, 450, 150], "risk": "low"}, {"bbox": [500, 100, 550, 150], "risk": "low"}, {"bbox": [600, 100, 650, 150], "risk": "low"}, {"bbox": [700, 100, 750, 150], "risk": "low"}, {"bbox": [800, 100, 850, 150], "risk": "low"}, {"bbox": [900, 100, 950, 150], "risk": "low"}, {"bbox": [100, 100, 150, 150], "risk": "low"}, {"bbox": [110, 100, 150, 150], "risk": "low"}, {"b...

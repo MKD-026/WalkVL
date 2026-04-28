@@ -1,0 +1,30 @@
+Frame Results: Rgb Seg Depth
+
+Frames: 49
+Errors: 0
+Structured JSON responses: 30 (61.2%)
+Average latency: 6.03s/frame
+Recommended actions: {'slow_down': 4, 'move forward': 3, 'slow down': 7, 'Move forward': 12, 'stop': 3, 'move_forward': 1}
+Safe directions: {'left': 30}
+
+Sample Responses
+
+frame_000161.jpg: ```json { "scene_summary": "The image depicts a pedestrian crossing a street with various elements, including trees, buildings, and a crosswalk.", "pedestrians": ["pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "p...
+
+frame_000251.jpg: The pedestrians are crossing a street with a sidewalk, crosswalk, and curb, which suggests a potential hazard. The scene includes a mix of pedestrians, a tree, and a building, indicating a need to slow down and be cautious.
+
+frame_000341.jpg: ```json { "scene_summary": "The image depicts a pedestrian walking through a city street with various elements such as buildings, trees, and a curb.", "pedestrians": ["pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian"...
+
+frame_000431.jpg: The image shows a clear path and no obstructions, making it safe for pedestrians.
+
+frame_000997.jpg: The scene shows a mix of pedestrians and vehicles, with a crosswalk, indicating a potential hazard. It is important to slow down to ensure safety.
+
+frame_001087.jpg: The image shows a pedestrian pathway with a mix of curbs, sidewalks, crosswalks, trees, and roads. The presence of pedestrians and the gradient of light and dark areas suggest potential hazards such as tree branches or fallen leaves. The depth cues indicate that the pathway is not fully navigable, which may pose a risk of falling objects or obstacles.
+
+frame_001177.jpg: The pedestrians are crossing the crosswalk, which is a high-risk area. The depth map shows pedestrians near the crosswalk, indicating a potential hazard. Therefore, it is recommended to slow down to avoid accidents.
+
+frame_001267.jpg: The image shows pedestrians crossing a street, which is a potential hazard. It is important to slow down to ensure safety.
+
+frame_001357.jpg: ```json { "scene_summary": "The image depicts a pedestrian walking through a city street with various elements such as buildings, trees, and a crosswalk.", "pedestrians": ["pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedest...
+
+frame_001447.jpg: ```json { "scene_summary": "The scene depicts a pedestrian walking on a sidewalk with a few pedestrians and a curbside. The environment includes a mix of trees, a crosswalk, and a building with a green roof.", "pedestrians": ["pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestrian", "pedestri...

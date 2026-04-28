@@ -1,0 +1,86 @@
+RGB vs RGB+Seg+Depth Comparison
+
+Paired Frames: 49
+Rgb Json Ok: 1
+Rgb Seg Depth Json Ok: 30
+Recommended Action Changes: 30
+Safe Direction Changes: 29
+Stop Now Changes: 29
+Risk Level Changes: 1
+Mean Text Similarity: 0.083
+Rgb Proximity Frames: 1
+Rgb Seg Depth Proximity Frames: 14
+Rgb Semantic Frames: 49
+Rgb Seg Depth Semantic Frames: 42
+
+Notable Frame Differences
+
+Frame: frame_000251
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=slow_down | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "A pedestrian is walking on a sidewalk, crossing a crosswalk, with trees on either side and a red Coca-Cola sign visible in the background.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk_level": "high"}, {"bbox": [150, 100, 200, 150], "risk_level": "high"}, {"bbox": [200, 100, 250, 150], "risk_level": "high"}, {"bbox": [250, 100, 300, 150], "risk_level": "high"}, {"bbox": [300, 100, 350, 150], "risk_level": "high"}, {"bbox": [350, 100, 400, 150], "risk_level": "high"}, {"bbox": [400, 100, 450, 150], "risk_level": "high"}, {"bbox": [450, 100, 500, 150], "risk_level": "high"}, {"bbox": [500, 100, 550, 150], "risk_level": "high"}, {"bbox": [550, 100, 600, 150], "r...
+RGB+Seg+Depth response: The pedestrians are crossing a street with a sidewalk, crosswalk, and curb, which suggests a potential hazard. The scene includes a mix of pedestrians, a tree, and a building, indicating a need to slow down and be cautious.
+
+Frame: frame_000431
+RGB: json=True | action=move_forward | direction=left | stop=False
+RGB+Seg+Depth: json=True | action=move forward | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': False, 'stop_now': False, 'risk_levels': True}
+RGB response: The pedestrians are walking on a sidewalk, which is generally safe for walking. However, it's important to be cautious of potential hazards such as vehicles, stairs, and buildings along the way.
+RGB+Seg+Depth response: The image shows a clear path and no obstructions, making it safe for pedestrians.
+
+Frame: frame_000997
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=slow down | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "The image depicts a pedestrian walking on a city street, with a yellow car and a tree in the foreground.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk_level": "low"}, {"bbox": [150, 100, 200, 150], "risk_level": "low"}, {"bbox": [200, 100, 250, 150], "risk_level": "low"}, {"bbox": [250, 100, 300, 150], "risk_level": "low"}, {"bbox": [300, 100, 350, 150], "risk_level": "low"}, {"bbox": [350, 100, 400, 150], "risk_level": "low"}, {"bbox": [400, 100, 450, 150], "risk_level": "low"}, {"bbox": [450, 100, 500, 150], "risk_level": "low"}, {"bbox": [500, 100, 550, 150], "risk_level": "low"}, {"bbox": [550, 100, 600, 150], "risk_level": "low"}, {"bbox": [600, 100, 650...
+RGB+Seg+Depth response: The scene shows a mix of pedestrians and vehicles, with a crosswalk, indicating a potential hazard. It is important to slow down to ensure safety.
+
+Frame: frame_001087
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=Move forward | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "The image depicts a pedestrian walking on a sidewalk in an urban area. There are several pedestrians visible, some walking and others standing. The scene includes trees and buildings in the background.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk": "low"}, {"bbox": [250, 100, 300, 150], "risk": "low"}, {"bbox": [350, 100, 400, 150], "risk": "low"}, {"bbox": [450, 100, 500, 150], "risk": "low"}, {"bbox": [550, 100, 600, 150], "risk": "low"}, {"bbox": [650, 100, 700, 150], "risk": "low"}, {"bbox": [750, 100, 800, 150], "risk": "low"}, {"bbox": [850, 100, 900, 150], "risk": "low"}, {"bbox": [950, 100, 1000, 150], "risk": "low"} ], "walkable_regions": [ {"bbox":...
+RGB+Seg+Depth response: The image shows a pedestrian pathway with a mix of curbs, sidewalks, crosswalks, trees, and roads. The presence of pedestrians and the gradient of light and dark areas suggest potential hazards such as tree branches or fallen leaves. The depth cues indicate that the pathway is not fully navigable, which may pose a risk of falling objects or obstacles.
+
+Frame: frame_001177
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=slow down | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "The image depicts a pedestrian walking on a sidewalk in an urban area. There are several pedestrians visible, some walking and others standing. The scene is well-lit with natural sunlight filtering through the trees.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk": "low"}, {"bbox": [150, 100, 200, 150], "risk": "low"}, {"bbox": [200, 100, 250, 150], "risk": "low"}, {"bbox": [250, 100, 300, 150], "risk": "low"}, {"bbox": [300, 100, 350, 150], "risk": "low"}, {"bbox": [350, 100, 400, 150], "risk": "low"}, {"bbox": [400, 100, 450, 150], "risk": "low"}, {"bbox": [450, 100, 500, 150], "risk": "low"}, {"bbox": [500, 100, 550, 150], "risk": "low"}, {"bbox": [550, 100...
+RGB+Seg+Depth response: The pedestrians are crossing the crosswalk, which is a high-risk area. The depth map shows pedestrians near the crosswalk, indicating a potential hazard. Therefore, it is recommended to slow down to avoid accidents.
+
+Frame: frame_001267
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=slow down | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "The image depicts a pedestrian walking on a sidewalk in an urban setting. The scene includes a mix of pedestrians, a building, and trees.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk_level": "low"}, {"bbox": [250, 100, 300, 150], "risk_level": "low"}, {"bbox": [350, 100, 400, 150], "risk_level": "low"}, {"bbox": [450, 100, 500, 150], "risk_level": "low"}, {"bbox": [550, 100, 600, 150], "risk_level": "low"}, {"bbox": [650, 100, 700, 150], "risk_level": "low"}, {"bbox": [750, 100, 800, 150], "risk_level": "low"}, {"bbox": [850, 100, 900, 150], "risk_level": "low"}, {"bbox": [950, 100, 1000, 150], "risk_level": "low"} ], "walkable_regions": [ {"bbox": [100, 100...
+RGB+Seg+Depth response: The image shows pedestrians crossing a street, which is a potential hazard. It is important to slow down to ensure safety.
+
+Frame: frame_001537
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=Move forward | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "Three pedestrians are walking on a sidewalk in an urban area. The scene includes a building with balconies, a tree, and a street with vehicles and a building edge in the background.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk_level": "low"}, {"bbox": [250, 100, 300, 150], "risk_level": "low"}, {"bbox": [400, 100, 450, 150], "risk_level": "low"} ], "walkable_regions": [ {"bbox": [100, 100, 150, 150], "risk_level": "low"}, {"bbox": [250, 100, 300, 150], "risk_level": "low"}, {"bbox": [400, 100, 450, 150], "risk_level": "low"}, {"bbox": [500, 100, 550, 150], "risk_level": "low"}, {"bbox": [600, 100, 650, 150], "risk_level": "low"}, {"bbox": [700, 100, 750, 150...
+RGB+Seg+Depth response: The scene shows a pedestrian crossing a street with a mix of pedestrians, a curb, a sidewalk, a crosswalk, and a tree. The presence of pedestrians and the crosswalk suggests a potential hazard. The scene is in a twilight or early evening setting, which can make it difficult to see the depth cues. Therefore, it is recommended to move forward to avoid the hazard.
+
+Frame: frame_001717
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=Move forward | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "A pedestrian is walking on a sidewalk in an urban area, with a white van and a person in the background.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk_level": "high"}, {"bbox": [250, 100, 300, 150], "risk_level": "high"}, {"bbox": [350, 100, 400, 150], "risk_level": "high"}, {"bbox": [450, 100, 500, 150], "risk_level": "high"}, {"bbox": [550, 100, 600, 150], "risk_level": "high"}, {"bbox": [650, 100, 700, 150], "risk_level": "high"}, {"bbox": [750, 100, 800, 150], "risk_level": "high"}, {"bbox": [850, 100, 900, 150], "risk_level": "high"}, {"bbox": [950, 100, 1000, 150], "risk_level": "high"} ], "walkable_regions": [ {"bbox": [100, 100, 150, 150], "risk_level...
+RGB+Seg+Depth response: The image shows a pedestrian walking on a sidewalk, with a mix of trees and buildings in the background. The pedestrian is in a safe region, indicated by the walkable regions and the presence of a road. The depth cues suggest that the pedestrian is moving forward, and the uncertainty indicates that the pedestrian should proceed.
+
+Frame: frame_003023
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=slow down | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "A pedestrian is walking on a sidewalk in an urban area, with a fence on the left side and a building in the background.", "pedestrians": [ {"bbox": [100, 100, 150, 150]}, {"bbox": [250, 100, 300, 150]}, {"bbox": [350, 100, 400, 150]}, {"bbox": [450, 100, 500, 150]}, {"bbox": [550, 100, 600, 150]}, {"bbox": [650, 100, 700, 150]}, {"bbox": [750, 100, 800, 150]}, {"bbox": [850, 100, 900, 150]}, {"bbox": [950, 100, 1000, 150]}, {"bbox": [100, 100, 150, 150]}, {"bbox": [250, 100, 300, 150]}, {"bbox": [350, 100, 400, 150]}, {"bbox": [450, 100, 500, 150]}, {"bbox": [550, 100, 600, 150]}, {"bbox": [650, 100, 700, 150]}, {"bbox": [750, 100, 800, 150]}, {"bbox": [850, 100, 900,...
+RGB+Seg+Depth response: The pedestrian crossing the street is a high-risk area, so it's recommended to slow down.
+
+Frame: frame_003113
+RGB: json=False | action=None | direction=None | stop=None
+RGB+Seg+Depth: json=True | action=move forward | direction=left | stop=False
+Changed fields: {'recommended_action': True, 'safe_direction': True, 'stop_now': True, 'risk_levels': False}
+RGB response: { "scene_summary": "A pedestrian is walking on a sidewalk in an urban area, with a fence on the left side and a few pedestrians in the background.", "pedestrians": [ {"bbox": [100, 100, 150, 150], "risk": "low"}, {"bbox": [150, 100, 200, 150], "risk": "low"}, {"bbox": [200, 100, 250, 150], "risk": "low"}, {"bbox": [250, 100, 300, 150], "risk": "low"}, {"bbox": [300, 100, 350, 150], "risk": "low"}, {"bbox": [350, 100, 400, 150], "risk": "low"}, {"bbox": [400, 100, 450, 150], "risk": "low"}, {"bbox": [450, 100, 500, 150], "risk": "low"}, {"bbox": [500, 100, 550, 150], "risk": "low"}, {"bbox": [550, 100, 600, 150], "risk": "low"}, {"bbox": [600, 100, 650, 150], "risk": "low"}, {"bbox": [650,...
+RGB+Seg+Depth response: Pedestrians are crossing the street, which poses a risk of injury. It is important to move forward to avoid any potential hazards.

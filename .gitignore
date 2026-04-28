@@ -1,0 +1,17 @@
+# Python/runtime caches
+__pycache__/
+*.pyc
+
+# External cloned repos
+external/
+
+# InternVL generated artifacts can be rebuilt or are too large for Git.
+experiments/internvl/cache/
+experiments/internvl/data/
+experiments/internvl/checkpoints/
+experiments/internvl/outputs/
+experiments/internvl/logs/*.log
+
+# Keep the polished text reports visible to Git.
+!experiments/internvl/final_txt/
+!experiments/internvl/final_txt/*.txt

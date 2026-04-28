@@ -1,0 +1,30 @@
+Frame Results: Rgb Seg Depth
+
+Frames: 49
+Errors: 0
+Structured JSON responses: 39 (79.6%)
+Average latency: 6.78s/frame
+Recommended actions: {'slow_down': 39}
+Safe directions: {'left': 39}
+
+Sample Responses
+
+frame_000161.jpg: { "scene_summary": "In the image, there are three distinct scenes. The first scene shows a street with pedestrians walking on the sidewalk. The second scene is a semantic segmentation image where the background is marked as #000000, the curb is marked as #FFD60A, the sidewalk is marked as #34C759, the crosswalk is marked as #007AFF, and the other walkable areas are marked as #64D2FF, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636366, #404040, #636...
+
+frame_000251.jpg: The pedestrians are on the left side of the image, and they appear to be near the curb. It is important to be cautious and move forward to avoid any potential hazards.
+
+frame_000341.jpg: The pedestrians are walking on a sidewalk, and the scene is not clear enough to determine the exact depth of the features. However, the pedestrians appear to be in a safe distance from the sidewalk, crosswalk, road, and building.
+
+frame_000431.jpg: { "scene_summary": "Three pedestrians are walking on a sidewalk in a city. The scene includes a mix of trees, buildings, and a road.", "spatial_summary": "Two pedestrians are on the left side of the image, and they appear to be near the curb.", "pedestrians": [ { "left": "left", "center": "center", "right": "right", "unknown": "unknown", "risk": "low", "proximity": "near" } ], "walkable_regions": [ "sidewalk", "crosswalk", "road" ], "hazards": [ "pedestrian", "vehicle", "curb", "stairs", "obstacle", "tree" ], "depth_cues": "The sidewalk and crosswalk are clearly visible, and the pedestrians are within a safe distance.", "recommended_action": "slow_down", "safe_direction": "left", "stop_no...
+
+frame_000997.jpg: The pedestrians are on the left side of the image, and the road ahead is clear. It's important to be cautious and move forward, as there are no immediate obstacles or hazards in the immediate vicinity.
+
+frame_001087.jpg: { "scene_summary": "The image depicts a pedestrian crossing a street with a crosswalk and a curb. There are two pedestrians on the left side of the image, and they appear to be near the crosswalk.", "spatial_summary": "Two pedestrians are on the left side of the image, near a crosswalk. The crosswalk is marked with a red line, and there is a curb on the right side of the image.", "pedestrians": [ { "position": "left", "relative_position": "left", "proximity": "near", "risk": "low", "crossing_intent": "not immediately in the path" } ], "walkable_regions": [ "sidewalk", "crosswalk", "road" ], "hazards": [ "pedestrian", "vehicle", "curb", "stairs", "obstacle", "tree" ], "depth_cues": "The im...
+
+frame_001177.jpg: The pedestrians are walking on the sidewalk, which is a safe and predictable area. The crosswalk is also clear, and there are no immediate hazards such as vehicles or obstacles. Therefore, it is safe to proceed without stopping.
+
+frame_001267.jpg: The pedestrians are walking on the sidewalk, which is a safe and clear path for them. The vehicles are not in the immediate path of the pedestrians, so they are not in immediate danger. Therefore, it is safe to walk on the sidewalk.
+
+frame_001357.jpg: The pedestrians are on the left side of the image, and they appear to be near the sidewalk. The scene includes a clear road ahead, a crosswalk, and a building with a staircase in the background. The pedestrians are not immediately in the path, so it is safe to walk in the direction of the pedestrians.
+
+frame_001447.jpg: The pedestrians are walking on the sidewalk, and the crosswalk and road are in the background. It is important to slow down to ensure safety while walking on the sidewalk.

@@ -1,0 +1,8 @@
+Analysis: Rgb
+
+Frames evaluated: 30
+Structured JSON responses: 5 (16.7%)
+Mean uncertainty: 0.900
+Recommended Action Counts: {'move_forward': 5}
+Safe Direction Counts: {'left': 5}
+Stop-now frames: 1

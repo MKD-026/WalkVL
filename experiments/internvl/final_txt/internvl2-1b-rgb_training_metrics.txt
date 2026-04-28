@@ -1,0 +1,10 @@
+Training Metrics: internvl2-1b-rgb
+
+Train steps logged: 9640
+Validation epochs logged: 40
+First train loss: 1.4140625
+Last train loss: 2.0582228899002075e-07
+First val loss: 0.050051087518697274
+Last val loss: 0.05642612956300091
+Best val loss seen: 0.01865396814898026
+Best checkpoint event: epoch=7 val_loss=0.01865396814898026

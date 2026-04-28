@@ -1,0 +1,5 @@
+Analysis: Rgb
+
+Frames evaluated: 49
+Structured JSON responses: 0 (0.0%)
+Stop-now frames: 0
